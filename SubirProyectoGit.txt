@@ -41,6 +41,9 @@ C:\R>git push origin master
 C:\R>git config --global user.name
 AnastasiaEs
 
+#Ver Historico 
+C:\R> git log
+
 
 #Errores
 
