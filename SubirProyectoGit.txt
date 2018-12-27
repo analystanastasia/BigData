@@ -35,15 +35,27 @@ C:\R>git commit -m "Como subir ficheros a Git"
 C:\R>git status
 
 #PUSH
-C:\R>git push origin master
+C:\R>git push -u origin master
 
 #Ver Usuario
 C:\R>git config --global user.name
 AnastasiaEs
+#Ver configuracio de proxy
+C:\R> git config --get http.proxy
 
 #Ver Historico 
 C:\R> git log
 
+#Revertir los cambios de los Archivos
+C:\R> git checkout --SubirProyectoGit.txt
+
+#Ignorar Archivos
+Crear nuevo archivo .gitignore
+      añadir nombres de los ficheros o carpetas a ignorar
+
+#Crear nueva version (Branch)
+C:\R> git branch NombreNuevo
+C:\R> git checkout NombreNuevo #Moverse entre ramas git checkout master
 
 #Errores
 
