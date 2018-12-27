@@ -1,0 +1,43 @@
+#Ir al directorio del proyecto
+C:\Users\anast>cd C:/R
+
+C:\R>git --version
+#Limpiar Cache 
+C:\R>git rm -r --cached .
+
+#Reset
+C:\R>git reset HEAD~1
+
+C:\R>git init
+#Initialized empty Git repository in C:/R/.git/
+
+# C:\R>git add *
+C:\R>git add SubirProyectoGit.txt
+
+#Ver estado
+C:\R>git status
+
+#Añadir la ruta del git
+C:\R>git remote add origin https://github.com/analystanastasia/BigData.git 
+
+#Eliminar C:\R>git remote rm origin
+
+#Configurar solo la primera vez
+	$ git config --global user.name "John Doe"
+	$ git config --global user.email johndoe@example.com
+	git config --global http.proxy http://MyProxy:8080
+	git config --global http.https://domain.com.sslVerify false
+#Fin
+
+#Hacer Commit -m= mensaje
+C:\R>git commit -m "Como subir ficheros a Git"
+
+C:\R>git status
+
+#PUSH
+C:\R>git push origin master
+
+#Ver Usuario
+C:\R>git config --global user.name
+AnastasiaEs
+
