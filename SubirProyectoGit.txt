@@ -26,7 +26,7 @@ C:\R>git remote add origin https://github.com/analystanastasia/BigData.git
 	$ git config --global user.name "John Doe"
 	$ git config --global user.email johndoe@example.com
 	git config --global http.proxy http://MyProxy:8080
-	git config --global http.https://domain.com.sslVerify false
+	git config --global http.sslVerify false
 #Fin
 
 #Hacer Commit -m= mensaje
