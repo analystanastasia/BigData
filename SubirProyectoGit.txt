@@ -114,3 +114,5 @@ Total 5 (delta 0), reused 0 (delta 0)
 To https://github.com/analystanastasia/BigData.git
    aef9c58..4ebdd86  master -> master
 
+#listar todas las variables del fichero de configuracion
+git config -l 
