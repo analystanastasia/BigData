@@ -1,3 +1,5 @@
+#----Manual Git-----#
+
 #Ir al directorio del proyecto
 C:\Users\anast>cd C:/R
 
